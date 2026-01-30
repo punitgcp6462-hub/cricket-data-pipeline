@@ -1,0 +1,28 @@
+# --- Python Files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# --- Data Engineering Specifics ---
+# Do not upload raw data files to GitHub!
+*.csv
+*.xlsx
+*.json
+*.sql
+*.log
+
+# --- GCP & Security ---
+# Never upload service account keys or credentials
+credentials.json
+*.key
+.gcloud/
+
+# --- VS Code & System ---
+.vscode/
+.DS_Store
+Thumbs.db
